@@ -15,7 +15,7 @@ public:
 	 * @param dimension (par défaut égale à 3)
 	 * @param valeur_initiale valeur à affecter à toutes les composantes (par défaut égale à 0)
 	 */
-	Vecteur(size_t dimension = 3, float valeur_initiale = 0.0);
+	Vecteur(size_t size = 3, float valeur_defaut = 0.0);
 
 	/**
 	 * Constructeur de copie
