@@ -93,11 +93,7 @@ public:
 	 */
 	template <class V>
 	Vecteur& operator=(const Vecteur<V> &v) {
-		if (this != &v) {
-			if (valeurs != NULL)
-				delete[] valeurs;
-			copy(v);
-		}
+		copy(v);
 		return (*this);
 	}
 
